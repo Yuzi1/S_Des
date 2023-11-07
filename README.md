@@ -1,6 +1,7 @@
 # S_Des
 使用JAVA+Swing实现S-Des的加密、解密，并且提供GUI界面支持用户交互
 1.S_des的算法核心代码如下：
+```Java
 //置换函数
     public static int[] Permute(int[] in,int[] p){
 
@@ -212,7 +213,7 @@
         int[] plaintext = finalPermutation(result);
 
         return plaintext;
-    
+ ```   
 2.测试
 （1）基本测试
 GUI首页界面（S_desWindow.java）：
